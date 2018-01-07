@@ -3,11 +3,12 @@ Rails.application.routes.draw do
     collection do
       post :confirm
     end
-  end
+   end
+ end
   
-  resources :contacts, only: [:new, :create] do
-    collection do
-     post :confirm
-    end
-  end
-end
+#   resources :contacts, only: [:new, :create] do
+#     collection do
+#     post :confirm
+#     end
+#   end
+# end
